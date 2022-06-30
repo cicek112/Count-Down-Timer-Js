@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-image: url(./winter.jpg);
+    height: 100vh;
+    
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+}
+
+h1{
+    font-size: 3em;
+    display: block;
+    
+}
+
+.countdown{
+    display: flex;
+    margin-top: 3.25em;
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.time{
+    font-size: 2em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
